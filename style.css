@@ -1,0 +1,88 @@
+/* style.css */
+
+/* General styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+/* Header styles */
+.img-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.img-whats {
+    width: 54px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* Main styles */
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-presentation {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.presentation {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 50;
+}
+
+strong {
+    color: #DA2027;
+}
+
+.specialties {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-insta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DA2027;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-insta:hover {
+    background-color: #da2026ad;
+}
+
+.box-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.img-profile {
+    min-width: 690px;
+}
